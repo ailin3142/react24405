@@ -1,41 +1,35 @@
 import './App.css';
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Nav from './components/Nav';
-import Fo from './components/Fo';
-import Categoria from './components/Categoria';
-
+import ItemListContainer from './components/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer';
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-        <Nav />
+        <div>NAVBAR</div>
         <Switch>
 
           {/* ruta home */}
           <Route exact path="/">
-            Soy la home
+            <ItemListContainer />
           </Route>
 
-          {/* ruta dinamica para categoria */}
-          <Route path="/categoria/:categoriaId">
-            <Categoria />
+
+          <Route path="/item/:itemId">
+            <ItemDetailContainer />
           </Route>
 
-          {/* ruta contacto */}
-          <Route exact path="/contacto">
-            Estas en contacto
-          </Route>
+          {/* ////RUTA CATEGORIAS */}
+          {/* <Route path="/categoria/:categoriaId">
+            <itemListContainer />
+          </Route> */}
 
-          {/* ruta carrito */}
-          <Route exact path="/carrito">
-            listo para comprar
-          </Route>
 
         </Switch>
-        <Fo />
+        <div>FOOTER</div>
       </BrowserRouter>
 
     </>
