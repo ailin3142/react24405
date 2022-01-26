@@ -1,28 +1,13 @@
 import './App.css';
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import ContenedorProducto from './components/ContenedorProducto';
 
-
-function App() {
+export default function App() {
 
   return (
     <>
-      <BrowserRouter>
-        <div>NAVBAR</div>
-        <Switch>
-
-          {/* ruta home */}
-          <Route exact path="/">
-            
-          </Route>
-
-
-        </Switch>
-        <div>FOOTER</div>
-      </BrowserRouter>
+    <ContenedorProducto />
 
     </>
   );
 }
-
-export default App;
