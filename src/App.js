@@ -1,15 +1,29 @@
 import React, { useState, useEffect } from "react";
-import TestCollectionFirebase from "./components/TestCollectionFirebase";
-import TestItemFirebase from "./components/TestItemFirebase";
+import TestReadCollectionFirebase from "./components/TestReadCollectionFirebase";
+import TestCreateDoc from "./components/TestCreateDoc";
+import TestReadItemFirebase from "./components/TestReadItemFirebase";
+import TesUpdateDoc from "./components/TesUpdateDoc";
+import TestForm from "./components/TestForm";
 
 export default function App() {
+
   return (
     <>
-    {/* <h1>TEST ITEM SOLO</h1>
-    <TestItemFirebase/> */}
 
-    <h1>TEST TODOS LOS ITEMS</h1>
-    <TestCollectionFirebase />
+      {/* <TestReadItemFirebase/>
+    
+    <TestReadCollectionFirebase />
+
+    <TestCreateDoc />
+
+    <TesUpdateDoc />
+
+    <TestForm /> */}
+
+      <TestForm />
+
+
+
     </>
   );
 }

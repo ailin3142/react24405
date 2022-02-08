@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getFirestore } from '../firebase/firebase'
 
-export default function TestCollectionFirebase() {
+export default function TestReadCollectionFirebase() {
   const [items, setItems] = useState({});
   useEffect(() => {
 
