@@ -17,21 +17,18 @@ Compra efectuada!
 ​
 Made by Bob Esponja.
 ​
-### FEATURES
-​
+### FEATURES​
 - caracteristica sobre mi software.
 - otra caracteristica que hace algo **importante** .
 - **mas cosas**
 ​
-### TOOLS USED TO BUILD IT 
-​
+### TOOLS USED TO BUILD IT ​
 - **ReactJS**
 - **Create React App** - Porque use este bolderplate...
 - **React Router DOM** - Handy for...
 - **Firebase's Firestore** - This is....
 ​
-### HOW TO SET IT UP
-​
+### HOW TO SET IT UP​
 - Clone this repository, navigate to the repo's directory and run: **npm i**.
 - After finished run: **npm start**.
 - The project should now be running on your browser.
