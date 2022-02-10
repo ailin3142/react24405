@@ -1,18 +1,12 @@
 # REACT ECOMMERCE!
 ​
-**Deploy**: https://react-super.web.app/
-
-
 Seleccionar un producto!
-
 ​
 ![Demonstration](https://media.giphy.com/media/91G267ggmorApOPMp7/giphy.gif?cid=790b76119a10547b4168e0a51bca34d8e319bd506c691e2d&rid=giphy.gif&ct=g)
-
 
 Rellenar formulario con detalles!
 
 ![Demonstration](https://media.giphy.com/media/EDsQNXrRUj8kOw5tSl/giphy.gif?cid=790b76113ce8f82437f091b672158c27d31c795d73258ef6&rid=giphy.gif&ct=g)
-
 
 Compra efectuada!
 
@@ -21,7 +15,6 @@ Compra efectuada!
 
 *REACT ECOMMERCE!* my software hace esto y lo otro!
 ​
-
 Made by Bob Esponja.
 ​
 ### FEATURES
@@ -29,7 +22,6 @@ Made by Bob Esponja.
 - caracteristica sobre mi software.
 - otra caracteristica que hace algo **importante** .
 - **mas cosas**
-
 ​
 ### TOOLS USED TO BUILD IT 
 ​
@@ -43,5 +35,7 @@ Made by Bob Esponja.
 - Clone this repository, navigate to the repo's directory and run: **npm i**.
 - After finished run: **npm start**.
 - The project should now be running on your browser.
+
+**Deploy**: https://algo.web.app/
 
 *This file was last updated ...*
