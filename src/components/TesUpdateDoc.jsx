@@ -9,7 +9,7 @@ export default function TesUpdateDoc() {
         const db = getFirestore();
         const docRef = db.collection("items").doc("NmfjHI8fX3uXiyjkH0HV");
 
-        docRef.update({stock:100})
+        docRef.update({stock:500})
             .then(() => {
                 console.log('cambio el stock!');
             })
