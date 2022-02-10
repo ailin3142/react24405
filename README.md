@@ -1,7 +1,7 @@
 # REACT ECOMMERCE!
 ​
-Seleccionar un producto!
-​
+Selecciona un producto!
+
 ![Demonstration](https://media.giphy.com/media/91G267ggmorApOPMp7/giphy.gif?cid=790b76119a10547b4168e0a51bca34d8e319bd506c691e2d&rid=giphy.gif&ct=g)
 
 Rellenar formulario con detalles!
